@@ -87,31 +87,50 @@
 	{
 		"name": "Life Support",
 		"maintenance": 1,
+		"cost": 40,
 		"hurryCostModifier": 0,
+		"happiness": 1,
 		"uniques": [
-			"[5]% Food is carried over after population increases [in this city]"
-			"[+10]% growth [in this city]"
+			"[5]% Food is carried over after population increases [in this city]",
+			"[+10]% growth [in this city]",
+			"Consumes [1] [Power]"
 		],
 		"requiredTech": "Habitation",
 		"civilopediaText": [
 			{
-				"text": "systems for cleaning the air and water."
+				"text": "systems for purifying the air and water."
 			}
 		]
 	},
 	{
-		"name": "Field Lab",
+		"name": "Solar Panels",
 		"hurryCostModifier": 25,
-		"science": 2,
 		"maintenance": 1,
-		"uniques": [
-			"[+1 Science] from [Research Base] tiles [in this city]",
-			"[+1 Science] from [Artifacts] tiles [in this city]"
+		"uniques": [ 
+			"Provides [1] [Power]",
+			"Must be next to [Desert]",
 		],
-		"requiredTech": "Computing",
+		"requiredTech": "Habitation",
 		"civilopediaText": [
 			{
-				"text": "Makeshift laboratory to analyze the local phenomena."
+				"text": "Photo-voltaic panels that provide electricity in an enviormentally friendly way."
+			}
+		]
+	},
+	{
+		"name": "Hydro-electric Turbine",
+		"hurryCostModifier": 25,
+		"production" : 1
+		"food" : 3
+		"maintenance": 1,
+		"uniques": [ 
+			"Provides [1] [Power]",
+			"Must be next to [River]",
+		],
+		"requiredTech": "Habitation",
+		"civilopediaText": [
+			{
+				"text": "A turbine that provides electricity in an enviormentally friendly way."
 			}
 		]
 	},
