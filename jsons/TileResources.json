@@ -118,7 +118,7 @@
 		]
 	},
 	{
-		"name": "Insects",
+		"name": "Exotic Fruits",
 		"resourceType": "Bonus",
 		"terrainsCanBeFoundOn": [
 			"Jungle",
@@ -297,11 +297,17 @@
 		]
 	},
 	{
-		"name": "Slaves",
+		"name": "Drones",
 		"resourceType": "Strategic",
-		"production": 1
 	},
-
+	{
+		"name": "Favor of the Talents",
+		"resourceType": "Strategic",
+	},
+	{
+		"name": "Influence",
+		"resourceType": "Strategic",
+	}
 	{
 		"name": "Hadeanite",
 		"resourceType": "Strategic",
